@@ -100,7 +100,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "Camila Music"
+        user.first_name = "Queen music"
     usar = user
     wew = usar.id
     try:
@@ -124,7 +124,7 @@ async def play(_, message: Message):
                     pass
                 except Exception:
                     await lel.edit(
-                        f"<b>🛑 Flood Wait Error 🛑</b> \n\Hey {user.first_name},@camilaassistant userbot couldn't join your group due to heavy join requests @warbotzsupport. Make sure userbot is not banned in group and try again later!")
+                        f"<b>🛑 Flood Wait Error 🛑</b> \n\Hey {user.first_name},@queenassistant userbot couldn't join your group due to heavy join requests @warbotzsupport. Make sure userbot is not banned in group and try again later!")
     try:
         await USER.get_chat(chid)
     except:
@@ -153,7 +153,7 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                         text="Channel 🔊",
-                        url="https://t.me/warbotz")
+                        url="https://t.me/dangerbots")
                    
                 ]
             ]
